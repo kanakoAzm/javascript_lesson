@@ -52,3 +52,17 @@ sum += playerList[2].age;
 let average = sum / 3;
 
 console.log(average);
+
+// Q6
+
+function sayHello(){
+  console.log('Hello');
+}
+
+sayHello();
+
+let sayWorld = function (){
+  console.log('World');
+}
+
+sayWorld();
