@@ -103,3 +103,12 @@ calc.add(3, 4);
 calc.subtract(20, 10);
 calc.multiply(7, 7);
 calc.divide(15, 3);
+
+// Q9
+
+function remainder(x, y){
+  let nmb = x % y;
+  return nmb;
+}
+
+console.log('5を3で割った余りは' + remainder(5, 3) + 'です。');
