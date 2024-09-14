@@ -116,3 +116,11 @@ console.log('5を3で割った余りは' + remainder(5, 3) + 'です。');
 // Q10
 
 // xはローカル変数で、xのスコープは関数の中だけ。そのため、関数内でしか参照できなくなっている。
+
+// 応用編
+
+// Q1
+function getRandom(num) {
+  return Math.floor(Math.random() * num);
+}
+console.log(getRandom(10));
