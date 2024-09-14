@@ -130,3 +130,15 @@ console.log(getRandom(10));
 setTimeout(() => {
   console.log('Hello World!');
 }, 3000);
+
+// Q3
+
+let num = -4
+
+if (num > 0){
+  console.log('num is greater than 0');
+} else if (num < 0){
+  console.log('num is less than 0');
+} else if (num === 0){
+  console.log('num is 0');
+}
