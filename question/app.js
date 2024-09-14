@@ -124,3 +124,9 @@ function getRandom(num) {
   return Math.floor(Math.random() * num);
 }
 console.log(getRandom(10));
+
+// Q2
+
+setTimeout(() => {
+  console.log('Hello World!');
+}, 3000);
