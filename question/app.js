@@ -45,11 +45,14 @@ console.log(playerList[1].favorites[1]);
 
 // Q5
 
-let sum = playerList[0].age + playerList[1].age;
 
-sum += playerList[2].age;
+let sum = 0;
 
-let average = sum / 3;
+for (let i = 0; i < playerList.length; i++){
+  sum += playerList[i].age;
+}
+
+let average = sum / playerList.length;
 
 console.log(average);
 
